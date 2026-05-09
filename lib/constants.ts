@@ -145,14 +145,13 @@ export const GALLERY_IMAGES = [
     alt: "Barber Oz interior",
     label: "The Studio",
   },
-  // Extra slots — replace with more real photos when available
   {
-    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&q=80",
+    src: "/photos/image-1778336572902.jpg",
     alt: "Precision work",
     label: "Precision",
   },
   {
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80",
+    src: "/photos/image-1778336709109.jpg",
     alt: "Combo treatment",
     label: "Full Treatment",
   },
@@ -160,13 +159,7 @@ export const GALLERY_IMAGES = [
 
 export const BEFORE_AFTER = [
   {
-    before: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80",
-    after:  "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&q=80",
-    label: "Classic Transformation",
-  },
-  {
-    before: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&q=80",
-    after:  "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80",
-    label: "Fade + Beard",
+    combined: "/photos/before-after.jpg",
+    label: { nl: "Klassieke Transformatie", en: "Classic Transformation" },
   },
 ];
