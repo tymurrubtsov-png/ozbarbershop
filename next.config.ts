@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 const isVercel = process.env.VERCEL === "1";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isVercel ? {} : { output: "export" }),
   basePath: (isProd && !isVercel) ? "/ozbarbershop" : "",
   images: {
     unoptimized: true,
