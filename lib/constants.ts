@@ -148,12 +148,12 @@ export const GALLERY_IMAGES = [
     label: "The Studio",
   },
   {
-    src: `${B}/photos/image-1778336572902.jpg`,
+    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&q=80",
     alt: "Precision work",
     label: "Precision",
   },
   {
-    src: `${B}/photos/image-1778336709109.jpg`,
+    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80",
     alt: "Combo treatment",
     label: "Full Treatment",
   },
@@ -161,7 +161,8 @@ export const GALLERY_IMAGES = [
 
 export const BEFORE_AFTER = [
   {
-    combined: `${B}/photos/before-after.jpg`,
-    label: { nl: "Klassieke Transformatie", en: "Classic Transformation" },
+    before: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80",
+    after: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&q=80",
+    label: "Classic Transformation",
   },
 ];
