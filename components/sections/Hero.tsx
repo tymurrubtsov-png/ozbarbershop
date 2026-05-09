@@ -56,7 +56,7 @@ export default function Hero({
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/photos/interior.jpg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photos/interior.jpg`}
           alt="Barber Oz interior"
           fill
           priority

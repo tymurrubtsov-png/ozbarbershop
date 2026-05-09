@@ -124,34 +124,36 @@ export const REVIEWS = [
   },
 ];
 
+const B = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const GALLERY_IMAGES = [
   {
-    src: "/photos/cut-1.jpg",
+    src: `${B}/photos/cut-1.jpg`,
     alt: "Classic slicked back haircut",
     label: "Classic Cut",
   },
   {
-    src: "/photos/cut-2.jpg",
+    src: `${B}/photos/cut-2.jpg`,
     alt: "Skin fade",
     label: "Skin Fade",
   },
   {
-    src: "/photos/cut-3.jpg",
+    src: `${B}/photos/cut-3.jpg`,
     alt: "Fade with beard",
     label: "Fade + Beard",
   },
   {
-    src: "/photos/interior.jpg",
+    src: `${B}/photos/interior.jpg`,
     alt: "Barber Oz interior",
     label: "The Studio",
   },
   {
-    src: "/photos/image-1778336572902.jpg",
+    src: `${B}/photos/image-1778336572902.jpg`,
     alt: "Precision work",
     label: "Precision",
   },
   {
-    src: "/photos/image-1778336709109.jpg",
+    src: `${B}/photos/image-1778336709109.jpg`,
     alt: "Combo treatment",
     label: "Full Treatment",
   },
@@ -159,7 +161,7 @@ export const GALLERY_IMAGES = [
 
 export const BEFORE_AFTER = [
   {
-    combined: "/photos/before-after.jpg",
+    combined: `${B}/photos/before-after.jpg`,
     label: { nl: "Klassieke Transformatie", en: "Classic Transformation" },
   },
 ];

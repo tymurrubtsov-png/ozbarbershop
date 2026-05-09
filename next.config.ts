@@ -10,8 +10,7 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_BASE_PATH: (isProd && !isVercel) ? "/ozbarbershop" : "",
   },
   images: {
-    loader: "custom",
-    loaderFile: "./imageLoader.ts",
+    unoptimized: true,
   },
   allowedDevOrigins: ["192.168.178.53", "localhost:3000"],
 };
